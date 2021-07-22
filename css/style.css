@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #B91450;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+/* FINE COMMON */
+/* HEADER */
+header h2 {
+    margin: 20px 0;
+}
+/* FINE HEADER */
+/* MAIN */
+.container {
+    width: 70%;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container-form {
+    width: 60%;
+    height: 60%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+label {
+    color: #B91450;
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    height: 25px;
+}
+
+input:hover {
+    background-color: #B91450;
+    color: white;
+}
+
+::placeholder {
+    text-align: center;
+}
+/* FINE MAIN */

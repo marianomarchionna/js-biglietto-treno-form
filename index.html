@@ -8,9 +8,39 @@
     <title>Prezzo del biglietto</title>
 </head>
 <body>
-    <div class="container">
-        
-    </div>
+    <header>
+        <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-form flex align-center">
+                <!-- input nome e cognome -->
+                <div class="nome flex-column align-center">
+                    <label for="nome">Nome Cognome</label>
+                    <input id="nome" type="text" name="nome" placeholder="Inserisci il tuo nome">
+                </div>
+                <!-- fine input nome e cognome -->
+
+                <!-- input km -->
+                <div class="chilometri flex-column align-center">
+                    <label for="km">Km da percorrere</label>
+                    <input id="km" type="number" name="km" placeholder="Inserisci i km">
+                </div>
+                <!-- fine input km -->
+
+                <!-- select per fascia età -->
+                <div class="eta flex-column align-center">
+                    <label for="fascia-eta">Fascia d'età</label>
+                    <select name="fascia-eta" id="fascia-eta">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over 65</option>
+                    </select>
+                </div>
+                <!-- fine select per fascia età -->
+            </div>
+        </div>
+    </main>
     <script src="js/main.js"></script>
 </body>
 </html>
