@@ -13,6 +13,7 @@
     </header>
     <main>
         <div class="container">
+            <!-- form -->
             <div class="container-form flex space-around align-center">
                 <!-- input nome e cognome -->
                 <div class="nome flex-column align-center">
@@ -39,23 +40,27 @@
                 </div>
                 <!-- fine select per fascia età -->
             </div>
+            <!-- fine form -->
+            <!-- button -->
             <div class="container-button flex space-around align-center">
                 <button id="genera" name="genera">Genera</button>
                 <button id="annulla" name="annulla">Annulla</button>
             </div>
+            <!-- fine button -->
         </div>
-
-        <h2>IL TUO BIGLIETTO</h2>
-        <div class="container2">
+        <!-- section biglietto  -->
+        <h2 id="titolo">IL TUO BIGLIETTO</h2>
+        <div id="ticket" class="container2">
             <div class="biglietto">
                 <h3>DETTAGLIO PASSEGGERI</h3>
                 <div class="nome-passeggero float">
                     <h3>NOME PASSEGGERO</h3>
+                    <p id="nome-pass"></p>
                 </div>
                 <div class="info-biglietto float flex">
                     <div class="section h-100 flex-column space-around">
                         <h4>Offerta</h4>
-                        <p id="tipo-biglietto">Biglietto Standard</p>
+                        <p id="offerta"></p>
                     </div>
                     <div class="section h-100 flex-column space-around">
                         <h4>Carrozza</h4>
@@ -67,11 +72,12 @@
                     </div>
                     <div class="section h-100 flex-column space-around">
                         <h4>Costo biglietto</h4>
-                        <p id="costo-biglietto">0.00€</p>
+                        <p id="costo-biglietto"></p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- fine section biglietto -->
     </main>
     <script src="js/main.js"></script>
 </body>

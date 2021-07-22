@@ -56,6 +56,11 @@ button {
 .space-around {
     justify-content: space-around;
 }
+
+button:hover{
+    background-color: #808080;
+    color: white;
+}
 /* FINE COMMON */
 /* HEADER */
 header h2 {
@@ -69,6 +74,7 @@ header h2 {
     background-color: white;
     margin: 0 auto;
     border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container-form {
@@ -94,6 +100,10 @@ select {
     height: 25px;
 }
 
+input {
+    text-align: center;
+}
+
 input:hover {
     background-color: #B91450;
     color: white;
@@ -108,10 +118,12 @@ input:hover {
     height: 170px;
     background-color: white;
     margin: 0 auto;
+    display: none;
 }
 
 main h2 {
     margin-top: 20px;
+    display: none;
 }
 
 .biglietto {
@@ -127,6 +139,11 @@ main h2 {
 
 .nome-passeggero h3 {
     text-align: center;
+}
+
+#nome-pass {
+    text-align: center;
+    font-weight: bolder;
 }
 
 .info-biglietto {
