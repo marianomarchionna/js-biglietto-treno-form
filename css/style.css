@@ -9,6 +9,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #B91450;
+    font-family: Arial, sans-serif;
 }
 
 h2 {
@@ -32,6 +33,13 @@ h2 {
 .align-center {
     align-items: center;
 }
+
+button {
+    color: #B91450;
+    font-size: 1em;
+    padding: 3px;
+    font-weight: bolder;
+}
 /* FINE COMMON */
 /* HEADER */
 header h2 {
@@ -54,9 +62,17 @@ header h2 {
     margin: 0 auto;
 }
 
+.container-button {
+    width: 20%;
+    height: 40%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
 label {
     color: #B91450;
     margin-bottom: 15px;
+    font-size: 0.9em;
 }
 
 input,
