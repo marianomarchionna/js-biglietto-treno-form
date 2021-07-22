@@ -61,6 +61,11 @@ button:hover{
     background-color: #808080;
     color: white;
 }
+
+.w-90{
+    width: 90%;
+    margin: 0 auto;
+}
 /* FINE COMMON */
 /* HEADER */
 header h2 {
@@ -137,12 +142,7 @@ main h2 {
     background-color: #808080;
 }
 
-.nome-passeggero h3 {
-    text-align: center;
-}
-
 #nome-pass {
-    text-align: center;
     font-weight: bolder;
 }
 
@@ -157,3 +157,69 @@ main h2 {
     padding: 0 10px;
 }
 /* FINE MAIN */
+/* MEDIA QUERY */
+@media (max-width: 830px){
+    .container {
+        width: 80%;
+        height: 250px;
+    }
+
+    .container-form {
+        display: block;
+        height: 80%;
+    }
+
+    .container-button {
+        height: 20%;
+    }
+
+    label {
+        margin-top: 5px;
+    }
+
+    .container2 {
+        width: 80%;
+        height: 280px;
+    }
+
+    .nome-passeggero {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .info-biglietto {
+        margin-top: 10px;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 512px){
+
+    .container {
+        width: 90%;
+    }
+
+    .info-biglietto {
+        display: block;
+        height: 400px;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .container2 {
+        width: 90%;
+        height: 590px;
+    }
+
+    .h-100{
+        height: 25%;
+    }
+
+    .section {
+        border-top: 1px solid #808080;
+        border-bottom: 1px solid #808080;
+        margin-top: 5px;
+    }
+}

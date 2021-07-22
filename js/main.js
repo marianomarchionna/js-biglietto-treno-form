@@ -27,7 +27,7 @@ btnGenera.addEventListener('click',
         costo = costo.toFixed(2);
 
 
-        nome = nome.charAt(0).toUpperCase() + nome.slice(1);
+        nome = nome.charAt(0).toUpperCase() + nome.slice(1); 
         //stampa nome passeggero
         document.getElementById('nome-pass').innerHTML = nome;
 
