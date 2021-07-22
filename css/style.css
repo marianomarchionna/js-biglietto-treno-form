@@ -17,6 +17,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    padding-top: 20px;
+}
+
 .flex {
     display: flex;
 }
@@ -40,6 +44,18 @@ button {
     padding: 3px;
     font-weight: bolder;
 }
+
+.float {
+    float: left;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
 /* FINE COMMON */
 /* HEADER */
 header h2 {
@@ -58,14 +74,12 @@ header h2 {
 .container-form {
     width: 60%;
     height: 60%;
-    justify-content: space-around;
     margin: 0 auto;
 }
 
 .container-button {
     width: 20%;
     height: 40%;
-    justify-content: space-around;
     margin: 0 auto;
 }
 
@@ -87,5 +101,42 @@ input:hover {
 
 ::placeholder {
     text-align: center;
+}
+
+.container2 {
+    width: 70%;
+    height: 170px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+main h2 {
+    margin-top: 20px;
+}
+
+.biglietto {
+    width: 95%;
+    margin: auto;
+}
+
+.nome-passeggero {
+    width: 26%;
+    height: 110px;
+    background-color: #808080;
+}
+
+.nome-passeggero h3 {
+    text-align: center;
+}
+
+.info-biglietto {
+    width: 74%;
+    height: 110px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.section {
+    padding: 0 10px;
 }
 /* FINE MAIN */
