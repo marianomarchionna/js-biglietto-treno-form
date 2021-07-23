@@ -9,7 +9,7 @@ body {
     height: 100%;
     width: 100%;
     background-color: #B91450;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -43,6 +43,7 @@ button {
     font-size: 1em;
     padding: 3px;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .float {
@@ -60,6 +61,9 @@ button {
 button:hover{
     background-color: #808080;
     color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: purple;
 }
 
 .w-90{
@@ -103,19 +107,27 @@ label {
 input,
 select {
     height: 25px;
+    border-color: #B91450;
+    border-radius: 5px;
+    border-width: 1px;
 }
 
 input {
     text-align: center;
 }
 
-input:hover {
+input:focus,
+select:focus {
     background-color: #B91450;
     color: white;
 }
 
 ::placeholder {
     text-align: center;
+}
+
+input:focus::placeholder {
+    color: white;
 }
 
 .container2 {

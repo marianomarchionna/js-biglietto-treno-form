@@ -26,10 +26,14 @@ btnGenera.addEventListener('click',
         }
         costo = costo.toFixed(2);
 
-
-        nome = nome.charAt(0).toUpperCase() + nome.slice(1); 
+        //Iniziali maiuscole del nome 
+        var arr = nome.split(' ');
+        for (var i = 0; i < arr.length; i++) {
+            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+        }
+        var nome_def = arr.join(' ');
         //stampa nome passeggero
-        document.getElementById('nome-pass').innerHTML = nome;
+        document.getElementById('nome-pass').innerHTML = nome_def;
 
         //stampa offerta biglietto
         document.getElementById('offerta').innerHTML = sconto;
